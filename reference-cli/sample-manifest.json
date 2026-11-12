@@ -1,0 +1,31 @@
+{
+  "manifest_version": "1.0.0",
+  "run_id": "run_20261111_aot_serializer",
+  "created_utc": "2026-11-11T22:45:00Z",
+  "origin_plane": {
+    "trigger": "gemini-live-voice",
+    "engine": "antigravity-2.0-worker",
+    "drive_scope": "https://www.googleapis.com/auth/drive.file"
+  },
+  "sandbox_attestation": {
+    "runtime": "gvisor-runsc",
+    "network_egress_policy": "allowlist-only",
+    "inbound_tunnel_open": false
+  },
+  "artifacts": {
+    "implementation_plan": "implementation_plan.md",
+    "test_summary": {
+      "passed": 12,
+      "failed": 0,
+      "duration_ms": 420
+    }
+  },
+  "files": [
+    {
+      "relative_path": "implementation_plan.md",
+      "sha256": "38b9a71a3d5a48560d5105b71ab41f74b682df2dd6c006f14b9d40f84998c8fc",
+      "size_bytes": 88,
+      "executable_warning": false
+    }
+  ]
+}
